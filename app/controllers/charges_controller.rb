@@ -5,7 +5,7 @@ class ChargesController < ApplicationController
     def create
       # Amount in cents
       # @amount = 500
-      @product = Product.find_by_id(session[:productid])
+      @product = Product.find_by_id(session[:product_id])
       @amount = (Integer(@product.price) * 100)
       
       

@@ -1,3 +1,63 @@
 // Place all the styles related to the products controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.navbar {
+    background-color: #21ce99;
+    border-bottom: 0 none;
+    font-size: 12px;
+    transition: .25s all linear;
+    border-radius: 0px;
+}
+
+.navbar-default {
+    /* background-color: #f8f8f8; */
+    /* border-color: #e7e7e7; */
+    background-color: #000 !important;
+    color: #d30000;
+}
+
+.navbar-default .navbar-toggle {
+    background-color: #333333;
+    border: none;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    /* background-color: #f00; */
+    background-color: #5b5b5b !important;
+}
+.navbar-form {
+     border-top: none !important; 
+     border-bottom: none !important; 
+     -webkit-box-shadow: none !important; 
+     box-shadow: none !important; 
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff !important;
+    font-size: 19px;
+}
+
+
+.navbar-default .navbar-nav > li:hover {
+    color: red !important;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #ff0000 !important;
+}
+
+body {
+    background: #232526 !important;
+    background: -webkit-linear-gradient(to right, #414345, #232526) !important;
+}
+
+#left-side
+{
+    color: white;
+}
+#right-side-panel
+{
+    width: 100%;
+    height: 900px;
+    background-color: #4f4f4f;
+}

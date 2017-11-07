@@ -5,6 +5,6 @@ class ProductsController < ApplicationController
 
   def show
     @product = Product.find(params[:id])
-    session[:productid] = @product.id
+    session[:product_id] = @product.id
   end
 end
