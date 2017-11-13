@@ -61,3 +61,11 @@ body {
     height: 900px;
     background-color: #4f4f4f;
 }
+
+.switch-wrapper {
+  position: relative;
+}
+
+.switch-wrapper > div {
+  position: absolute;
+}

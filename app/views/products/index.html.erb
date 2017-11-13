@@ -1,15 +1,5 @@
 <br/>
-<div class="row" style="width: 90%; margin: 0 auto;">
-<% @products.each do |product| %>
-  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="<%= product.picture %>" alt="...">
-      <div class="caption">
-        <h3><%= product.name %></h3>
-        <h4>$<%= product.price %>0</h4>
-        <%= link_to "Details", product_path(product), class: "btn btn-primary" %>
-      </div>
-    </div>
-  </div>
-  <% end %>
-</div>
+<div id="app"></div>
+<div id="breaker"></div>
+<%= javascript_include_tag 'bundle' %>
+
